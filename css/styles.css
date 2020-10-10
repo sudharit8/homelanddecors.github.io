@@ -10113,9 +10113,9 @@ p {
   line-height: 1.75;
 }
 .title-black{
-  letter-spacing: 0.3105em;
-  font-weight: 600;
-  margin-left: -45px;
+  letter-spacing: 0.4105em;
+    font-weight: bold;
+    margin-left: -45px;
 }
 
 .page-section h3.section-subheading {

@@ -1984,7 +1984,16 @@ pre code {
   width: 2rem;
   height: 2rem;
 }
+/* Mobile view */
 @media (max-width: 575.98px) {
+  header.masthead .masthead-subheading {
+    display: none;
+  }
+  .btn-xl {
+    position: relative;
+    top: 90px;
+    padding: 0.45rem 1.5rem !important;
+  }
   .featured-modal .modal-content {
     background-color: #f6f1eb;
     padding-top: 6rem;
@@ -3106,6 +3115,9 @@ input[type=button].btn-block {
   }
 }
 @media (min-width: 768px) {
+  .title-black {
+    display: none;
+  }
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
@@ -10115,7 +10127,7 @@ p {
 .title-black{
   letter-spacing: 0.4105em;
     font-weight: bold;
-    margin-left: -45px;
+    margin-left: -20px;
 }
 
 .page-section h3.section-subheading {
